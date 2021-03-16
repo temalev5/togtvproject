@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif !important;
+  /* , -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #373A40 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.root{
+  width: 100vw;
+  height: 100vh;
+} 
+.myform{
+  /* display: flex; */
+  padding: 25px;
+  background-color: #9A949A;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius:8px 8px 8px 8px;
+}
+.form-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.customForm{
+  width: 350px;
+  padding: 35px;
+}
+.userIcon{
+  display: flex;
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.userStatus{
+  width: 5px !important;
+  height: 5px !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 0px !important;
+}
+.roomImage{
+  width: 75px !important;
+}
+.users{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.moreUsers{
+  font-weight: 800 !important;
+  color: #FFFFFF !important;
+}
+tr,td{
+  border: 0 !important;
+}
+.roomRating{
+  margin-bottom: 15px;
+  color:white;
+}
+.ui.table td {
+  padding: .40em .60em !important; 
+}
+.ui.cards>.card {
+  margin: .875em 3.2em !important;
+}
+.ui.card:after, .ui.cards:after{
+  display: none !important;
+  content: '' !important;
+}
+.prompt{
+  background: none !important;
+}
+.search{
+  color:white;
+}
+.top{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.rightTop{
+  margin-left: auto;
+}
+.rightTop .star i:not(.active){
+  color: #D9D9D9 !important;
+}
+.rightTop div:nth-child(1){
+  margin: 0px 10px;
+}
+.dropdown{
+  color: #FFFFFF !important;
+}
+h1,h2,h3,span, .ui.table, .ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  color: #FFFFFF !important;
+}
+/* h2{
+  margin-bottom: 5px !important;
+} */
+.roomStatus{
+  width: 16px;
+  height: 16px;
+}
+.ui.card, .ui.cards>.card {
+  background-color: #2929298c !important;
+}
+
+.ui.card>.extra, .ui.cards>.card>.extra {
+  border-top: 1px solid rgb(255 255 255) !important;
+}
+
+.roomRating .star i:not(.active){
+  color: #D9D9D9 !important;
+}
+hr.style-two {
+  border: 0 !important;
+  height: 1px !important;
+  background: rgb(55,58,64);
+  background: linear-gradient(180deg, rgba(55,58,64,1) 0%, rgba(65,65,71,1) 20%, rgba(112,112,112,1) 80%, rgba(55,58,64,1) 100%);
+}
+.w-100{
+  width: 100% !important;
+}
+.secondtop{
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.yohoho-iframe, #yohoho{
+  width: 100%;
+  height: 100vh;
+}
+.hud{
+  position: fixed;
+  right: 3%;
+  bottom: 10%;
+  color: white !important;
+  width: 200px;
+}
+.chat{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.users div{
+  margin-right: .3em;
+}
+.buttonStatus{
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+/* .customForm{
+  display: flex !important;
+  justify-content: center !important;
+} */
+/* .d1 {
+  width: 100px; 
+  height: 100px;
+  background: #83A7C9;
+  border-radius: 50%;
+} */
